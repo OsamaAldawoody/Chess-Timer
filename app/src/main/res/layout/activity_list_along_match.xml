@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.osamaa.chesstimer.listItemAlongMatch"
+    android:id="@+id/list_item_along_match"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 min"
+        android:id="@+id/txtView_10"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:layout_weight="1"
+        android:background="#1565C0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15 min"
+        android:id="@+id/txtView_15"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:layout_weight="1"
+        android:background="#1565C0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20 min"
+        android:textColor="#FFF"
+        android:id="@+id/txtView_20"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="#1565C0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30 min"
+        android:textColor="#FFF"
+        android:id="@+id/txtView_30"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="#1565C0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="60 min"
+        android:id="@+id/txtView_60"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="#1565C0"
+        android:textColor="#FFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="90 min"
+        android:id="@+id/txtView_90"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="#1565C0"
+        android:textColor="#FFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="120 min"
+        android:textColor="#FFF"
+        android:id="@+id/txtView_120"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="#1565C0"/>
+
+
+</LinearLayout>
